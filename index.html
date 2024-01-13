@@ -9,14 +9,22 @@
   <body>
     <header>
       <nav>
-        <div class="logo"></div>
+        <div class="logo">
+          <!--Just a placeholder img-->
+          <img
+            src="https://cdn.vectorstock.com/i/preview-2x/76/79/your-logo-here-placeholder-symbol-vector-26077679.webp"
+            alt="placeholder"
+            width="100px"
+            height="100px"
+          />
+        </div>
         <div class="navigation">
-          <div>Home</div>
-          <div>French</div>
-          <div>German</div>
-          <div>Italian</div>
-          <div>Search 🔎</div>
-          <div>About</div>
+          <div class="nav__item"><a href="">Home</a></div>
+          <div class="nav__item"><a href="">French</a></div>
+          <div class="nav__item"><a href="">German</a></div>
+          <div class="nav__item"><a href="">Italian</a></div>
+          <div class="nav__item"><a href="">Search</a></div>
+          <div class="nav__item"><a href="">About</a></div>
         </div>
       </nav>
     </header>
@@ -24,47 +32,94 @@
       <div class="title__website"><h1>Title of the website</h1></div>
       <!--Not sure if this should be inside the header or inside the main???-->
       <div class="hero">
-        <div><!--Slogan--></div>
-        <div><!--Description--></div>
-      </div>
-      <div class="chef1">
         <div>
-          <div><!--Img of Chef--></div>
+          <!--Slogan-->
+          <h2>Elevating tastes, Uniting Cultures</h2>
+        </div>
+        <div>
+          <!--Description-->
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+          veritatis labore perspiciatis!
+        </div>
+      </div>
+      <!--Each chef section has a main container to better later position other divs -->
+      <div class="container_chef1">
+        <div>
+          <div>
+            <!--Img of recipe blurred with title-->
+            <div></div>
+            <div></div>
+          </div>
           <div><!--Name of Chef--></div>
         </div>
         <div><!--Description of Chef--></div>
         <div><!--Img of recipe blurred with title--></div>
       </div>
-      <div class="chef2">
-        <div><!--Img of recipe blurred with title--></div>
+      <div class="container_chef2">
+        <!--Here for the hover effect plus text we might need several divs: one for the img the other for the text -->
+        <div>
+          <!--Img of recipe blurred with title-->
+          <div></div>
+          <div></div>
+        </div>
         <div><!--Description of Chef--></div>
         <div>
           <div><!--Img of Chef--></div>
           <div><!--Name of Chef--></div>
         </div>
       </div>
-      <div class="chef3">
+      <div class="container_chef3">
         <div>
           <div><!--Img of Chef--></div>
           <div><!--Name of Chef--></div>
         </div>
         <div><!--Description of Chef--></div>
-        <div><!--Img of recipe blurred with title--></div>
+        <div>
+          <!--Img of recipe blurred with title-->
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </main>
     <footer>
-      <div>
-        <div><!--Description company and legal info--></div>
-        <div><!--Contacts (address&numbers...)--></div>
-        <div><!--Subscribe & Newsletter--></div>
-        <div>
-          <div><!--LOGO--></div>
+      <div class="container__footer">
+        <div class="footer__item">
+          <!--Description company and legal info-->
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
+          reiciendis?
+        </div>
+        <div class="footer__item">
+          <!--Contacts (address&numbers...)-->
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
+          reiciendis?
+        </div>
+        <div class="footer__item">
+          <!--Subscribe & Newsletter-->
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
+          reiciendis?
+        </div>
+        <!--In the next container div there are LOGO + SOCIAL ICONS + Copyright -->
+        <div class="container__footer__right">
           <div>
-            <div><!--Social Network Icon--></div>
-            <div><!--Social Network Icon--></div>
-            <div><!--Social Network Icon--></div>
+            <!--LOGO-->
+            <img
+              src="https://cdn.vectorstock.com/i/preview-2x/76/79/your-logo-here-placeholder-symbol-vector-26077679.webp"
+              alt="placeholder"
+              width="100px"
+              height="100px"
+            />
           </div>
-          <div><!--Copyright--></div>
+          <div class="container__footer__social">
+            <!--Placeholders for Icons-->
+            <div><!--Social Network Icon-->⭐️</div>
+            <div><!--Social Network Icon-->⭐️</div>
+            <div><!--Social Network Icon-->⭐️</div>
+          </div>
+          <div>
+            <!--Copyright-->
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
+            vero!
+          </div>
         </div>
       </div>
     </footer>
