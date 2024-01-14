@@ -24,9 +24,22 @@
   column-gap: 10rem;
   margin: 5rem;
 }
+.first_section_recipe_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
 
 .first_section_recipe_right_img {
   border-radius: 20px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .ingredients li {
@@ -75,7 +88,7 @@ h2 {
   justify-content: center;
 }
 
-.slide > img {
+.slide > a > img {
   display: block;
   width: 600px;
   height: 600px;
