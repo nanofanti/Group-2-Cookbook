@@ -10,6 +10,14 @@
   text-align: center;
 }
 
+.first_section_recipe_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5rem;
+}
+
 .main_section_recipe {
   display: flex;
   justify-content: center;
@@ -25,7 +33,7 @@
   font-size: 3rem;
 }
 
-.process ul {
+.instructions ul {
   font-size: 3rem;
   line-height: 4rem;
 }
@@ -35,11 +43,20 @@ h2 {
   text-align: center;
 }
 
+.title_carousel {
+  margin-top: 10rem;
+}
+.container_carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .carousel {
-  width: 100%;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   position: relative;
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 
 .carousel > ul {
@@ -57,14 +74,16 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
 .slide > img {
   display: block;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   object-fit: cover;
   object-position: center;
   border-radius: 20px;
 }
+
 .slide[data-active] {
   opacity: 1;
   z-index: 1;
@@ -73,7 +92,6 @@ h2 {
 
 .carousel-button {
   position: absolute;
-  margin: 0 450px;
   background: none;
   border: none;
   font-size: 4rem;
