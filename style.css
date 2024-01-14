@@ -80,3 +80,19 @@ footer {
   column-gap: 1rem;
   font-size: 2rem;
 }
+
+/* Categoire File */
+
+.categorie--container {
+}
+
+.categorie-recipePic {
+  width: 600px;
+  height: auto;
+  /* chang it, it's just to have a vew with exemples */
+}
+
+.categorie--picChosenCook {
+  width: 600px;
+  height: auto;
+}
