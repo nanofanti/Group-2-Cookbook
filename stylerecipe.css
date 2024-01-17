@@ -10,12 +10,21 @@
   text-align: center;
 }
 
+h1 {
+  background-color: #519258;
+  padding: 3rem;
+}
+
 .first_section_recipe_left {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   row-gap: 3rem;
+  background-color: #064635;
+  border-radius: 25px;
+  color: white;
+  padding: 3rem;
 }
 
 .main_section_recipe {
@@ -30,6 +39,10 @@
   justify-content: center;
   align-items: center;
   row-gap: 2rem;
+  background-color: #064635;
+  border-radius: 25px;
+  color: white;
+  padding: 3rem;
 }
 
 .first_section_recipe_right_img {
@@ -40,10 +53,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #f0bb62;
+  padding: 3rem;
+  border-radius: 25px;
 }
 
 .ingredients li {
   font-size: 3rem;
+}
+
+.instructions {
+  background-color: #f0bb62;
+  padding: 3rem;
+  border-radius: 25px;
 }
 
 .instructions ul {
@@ -58,6 +80,9 @@ h2 {
 
 .carousel_header {
   margin: 5rem;
+  background-color: #519258;
+  padding: 5rem;
+  border-radius: 25px;
 }
 .carousel_container {
   width: 100%;
@@ -66,6 +91,8 @@ h2 {
   height: 500px;
   gap: 10px;
   margin-bottom: 30px;
+  background-color: #f4eea9;
+  padding: 6rem;
 
   > div {
     flex: 0 0 150px;
@@ -141,6 +168,8 @@ h2 {
   height: 500px;
   gap: 10px;
   margin-bottom: 30px;
+  background-color: #f4eea9;
+  padding: 6rem;
 
   > div {
     flex: 0 0 150px;
@@ -210,6 +239,8 @@ h2 {
   height: 500px;
   gap: 10px;
   margin-bottom: 30px;
+  background-color: #f4eea9;
+  padding: 6rem;
 
   > div {
     flex: 0 0 150px;
