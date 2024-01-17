@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <title>Mosaic Munch Medley</title>
+    <link rel="icon" href="./OtherPics/favicon3.png">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
         <div class="logo">
-          <!--Just a placeholder img-->
           <img
-            src="https://cdn.vectorstock.com/i/preview-2x/76/79/your-logo-here-placeholder-symbol-vector-26077679.webp"
-            alt="placeholder"
-            width="100px"
-            height="100px"
+            src="./OtherPics/favicon3.png"
+            alt="Triple-M-Icon"
+            width="50px"
+            height="50px"
           />
         </div>
         <div class="navigation">
@@ -23,37 +23,35 @@
           <div class="nav__item"><a href="">French</a></div>
           <div class="nav__item"><a href="">German</a></div>
           <div class="nav__item"><a href="">Italian</a></div>
-          <div class="nav__item"><a href="">Search</a></div>
           <div class="nav__item"><a href="">About</a></div>
+          <div class="nav__item"><input type="text" placeholder="Search.."></div>
         </div>
       </nav>
     </header>
     <main>
-      <div class="title__website"><h1>Title of the website</h1></div>
-      <!--Not sure if this should be inside the header or inside the main???-->
-      <div class="hero">
-        <div>
-          <!--Slogan-->
-          <h2>Elevating tastes, Uniting Cultures</h2>
+      <div class="IndexHero">
+        <div class="IndexCarousel">
+          <div class="IndexCarouselItem">
+            <img src="./Foodpics/agrettisAlg.jpeg" alt="First Food Slide">
+          </div>
+          <div class="IndexCarouselItem">
+            <img src="./Foodpics/andouillette.jpeg" alt="Second Food Slide">
+          </div>
+          <div class="IndexCarouselItem">
+            <img src="./Foodpics/beefTartare.png" alt="Third Food Slide">
+          </div>
         </div>
-        <div>
-          <!--Description-->
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
-          veritatis labore perspiciatis!
+        <div class="hero">
+          <h1>Mosaic Munch Medley</h1>
+          <h2>Elevating tastes, Uniting Cultures</h2>
+          <p>Welcome to the world of wicked wrongs of victuals</p>
         </div>
       </div>
-      <!--Each chef section has a main container to better later position other divs -->
+      <!--Each chef section has a main container to better later position other divs-->
       <div class="container_chef1">
-        <div>
-          <div>
-            <!--Img of recipe blurred with title-->
-            <div></div>
-            <div></div>
-          </div>
-          <div><!--Name of Chef--></div>
-        </div>
-        <div><!--Description of Chef--></div>
-        <div><!--Img of recipe blurred with title--></div>
+        <img id="french_cook" src="./OtherPics/french_cook.webp" alt="typical french cook">
+        <p>Jeanuille Grenouille invites you to his gloomy lair of abominable atrocities</p>
+        <img class="LinkPicFrench" src="./OtherPics/french_cuisine.jpg" alt="typical french cuisine">
       </div>
       <div class="container_chef2">
         <!--Here for the hover effect plus text we might need several divs: one for the img the other for the text -->
@@ -103,8 +101,8 @@
           <div>
             <!--LOGO-->
             <img
-              src="https://cdn.vectorstock.com/i/preview-2x/76/79/your-logo-here-placeholder-symbol-vector-26077679.webp"
-              alt="placeholder"
+              src="./OtherPics/MMMPiggieCutout.png"
+              alt="Triple M Logo"
               width="100px"
               height="100px"
             />
