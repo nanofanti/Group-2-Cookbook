@@ -1,0 +1,276 @@
+.first_section_recipe {
+  display: flex;
+  justify-content: center;
+  column-gap: 10rem;
+  margin: 3rem;
+}
+
+.first_section_recipe p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.first_section_recipe_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 3rem;
+}
+
+.main_section_recipe {
+  display: flex;
+  justify-content: center;
+  column-gap: 10rem;
+  margin: 5rem;
+}
+.first_section_recipe_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.first_section_recipe_right_img {
+  border-radius: 20px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ingredients li {
+  font-size: 3rem;
+}
+
+.instructions ul {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.carousel_header {
+  margin: 5rem;
+}
+.carousel_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  > div {
+    flex: 0 0 150px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+
+    &:nth-of-type(1) {
+      background: url("/FoodPics/andouillette.jpeg") no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("/FoodPics/calfsTongue.png") no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("/FoodPics/ducksBlood.png") no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("/FoodPics/frogsLegs.png") no-repeat 50% / cover;
+    }
+    &:nth-of-type(5) {
+      background: url("/FoodPics/sheepsBrain.jpg") no-repeat 50% / cover;
+    }
+
+    .carousel_content {
+      font-size: 2rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(2, 2, 46);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 2, 46, 0.6755077030812324) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 2rem;
+        text-align: center;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 500px;
+      box-shadow: 1px 3px 15px #519258;
+      transform: translatey(-30px);
+    }
+
+    &:hover .carousel_content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
+    }
+  }
+}
+
+.carousel_container_german {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  > div {
+    flex: 0 0 150px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+
+    &:nth-of-type(1) {
+      background: url("/FoodPics/sowStomach.jpeg") no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("/FoodPics/mettigel.jpeg") no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("/FoodPics/wildGarlicPesto.png") no-repeat 50% / cover;
+    }
+
+    .carousel_content {
+      font-size: 2rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(2, 2, 46);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 2, 46, 0.6755077030812324) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 2rem;
+        text-align: center;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 500px;
+      box-shadow: 1px 3px 15px #519258;
+      transform: translatey(-30px);
+    }
+
+    &:hover .carousel_content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
+    }
+  }
+}
+
+.carousel_container_italian {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  > div {
+    flex: 0 0 150px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+
+    &:nth-of-type(1) {
+      background: url("/FoodPics/agrettisAlg.jpeg") no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("/FoodPics/carsuMazu.png") no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("/FoodPics/rocciata.jpg") no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("/FoodPics/lapredoto.png") no-repeat 50% / cover;
+    }
+
+    .carousel_content {
+      font-size: 2rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(2, 2, 46);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 2, 46, 0.6755077030812324) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 2rem;
+        text-align: center;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 500px;
+      box-shadow: 1px 3px 15px #519258;
+      transform: translatey(-30px);
+    }
+
+    &:hover .carousel_content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
+    }
+  }
+}
