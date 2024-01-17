@@ -1,18 +1,20 @@
 .first_section_recipe {
   display: flex;
   justify-content: center;
-  column-gap: 10rem;
+  column-gap: 5rem;
   margin: 3rem;
 }
 
 .first_section_recipe p {
   font-size: 2.5rem;
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
   background-color: #519258;
   padding: 3rem;
+  font-size: 6rem;
 }
 
 .first_section_recipe_left {
@@ -30,7 +32,7 @@ h1 {
 .main_section_recipe {
   display: flex;
   justify-content: center;
-  column-gap: 10rem;
+  column-gap: 5rem;
   margin: 5rem;
 }
 .first_section_recipe_right {
@@ -60,6 +62,7 @@ h1 {
 
 .ingredients li {
   font-size: 3rem;
+  font-family: "Lato", sans-serif;
 }
 
 .instructions {
@@ -73,6 +76,10 @@ h1 {
   line-height: 4rem;
 }
 
+.instructions li {
+  font-family: "Lato", sans-serif;
+}
+
 h2 {
   font-size: 5rem;
   text-align: center;
@@ -83,6 +90,7 @@ h2 {
   background-color: #519258;
   padding: 5rem;
   border-radius: 25px;
+  color: white;
 }
 .carousel_container {
   width: 100%;
