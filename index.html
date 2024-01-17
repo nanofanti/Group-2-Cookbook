@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mosaic Munch Medley</title>
-    <link rel="icon" href="./OtherPics/favicon3.png">
+    <link rel="icon" href="./OtherPics/favicon3.png" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -19,12 +25,20 @@
           />
         </div>
         <div class="navigation">
-          <div class="nav__item"><a href="">Home</a></div>
-          <div class="nav__item"><a href="">French</a></div>
-          <div class="nav__item"><a href="">German</a></div>
-          <div class="nav__item"><a href="">Italian</a></div>
-          <div class="nav__item"><a href="">About</a></div>
-          <div class="nav__item"><input type="text" placeholder="Search.."></div>
+          <div class="nav__item"><a href="/index.html">Home</a></div>
+          <div class="nav__item">
+            <a href="/categorieFrench.html">French</a>
+          </div>
+          <div class="nav__item">
+            <a href="/categorieGerman.html">German</a>
+          </div>
+          <div class="nav__item">
+            <a href="/categorieItalian.html">Italian</a>
+          </div>
+          <div class="nav__item"><a href="#footer">About</a></div>
+          <div class="nav__item">
+            <input type="text" placeholder="Search.." />
+          </div>
         </div>
       </nav>
     </header>
@@ -32,13 +46,13 @@
       <div class="IndexHero">
         <div class="IndexCarousel">
           <div class="IndexCarouselItem">
-            <img src="./Foodpics/agrettisAlg.jpeg" alt="First Food Slide">
+            <img src="./Foodpics/agrettisAlg.jpeg" alt="First Food Slide" />
           </div>
           <div class="IndexCarouselItem">
-            <img src="./Foodpics/andouillette.jpeg" alt="Second Food Slide">
+            <img src="./Foodpics/andouillette.jpeg" alt="Second Food Slide" />
           </div>
           <div class="IndexCarouselItem">
-            <img src="./Foodpics/beefTartare.png" alt="Third Food Slide">
+            <img src="./Foodpics/beefTartare.png" alt="Third Food Slide" />
           </div>
         </div>
         <div class="hero">
@@ -49,9 +63,20 @@
       </div>
       <!--Each chef section has a main container to better later position other divs-->
       <div class="container_chef1">
-        <img id="french_cook" src="./OtherPics/french_cook.webp" alt="typical french cook">
-        <p>Jeanuille Grenouille invites you to his gloomy lair of abominable atrocities</p>
-        <img class="LinkPicFrench" src="./OtherPics/french_cuisine.jpg" alt="typical french cuisine">
+        <img
+          id="french_cook"
+          src="./OtherPics/french_cook.webp"
+          alt="typical french cook"
+        />
+        <p>
+          Jeanuille Grenouille invites you to his gloomy lair of abominable
+          atrocities
+        </p>
+        <img
+          class="LinkPicFrench"
+          src="./OtherPics/french_cuisine.jpg"
+          alt="typical french cuisine"
+        />
       </div>
       <div class="container_chef2">
         <!--Here for the hover effect plus text we might need several divs: one for the img the other for the text -->
@@ -79,7 +104,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="footer">
       <div class="container__footer">
         <div class="footer__item">
           <!--Description company and legal info-->
