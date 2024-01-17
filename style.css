@@ -178,7 +178,13 @@ footer {
   font-size: 2rem;
 }
 
-i {
+.fa-brands {
+  color: white;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.fa-regular {
   color: white;
   font-size: 3rem;
   margin: 1rem;
