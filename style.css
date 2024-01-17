@@ -130,8 +130,9 @@ footer {
   position: relative;
   display: flex;
   justify-content: center;
-  /* Marco: Just added a stupid color to better see it */
-  background-color: aqua;
+  background-color: #064635;
+  padding: 3rem;
+  color: white;
 }
 
 .container__footer {
@@ -146,9 +147,23 @@ footer {
   height: 100%;
   font-size: 1.5rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
+  gap: 1rem;
+}
+
+.footer__item h2 {
+  font-size: 2rem;
+}
+
+.footer__item p {
+  font-size: 1rem;
+}
+
+.footer_item__list li {
+  font-size: 1rem;
 }
 
 .container__footer__right {
@@ -161,4 +176,10 @@ footer {
   display: flex;
   column-gap: 1rem;
   font-size: 2rem;
+}
+
+i {
+  color: white;
+  font-size: 3rem;
+  margin: 1rem;
 }
