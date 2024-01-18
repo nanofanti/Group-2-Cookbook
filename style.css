@@ -23,6 +23,7 @@ header {
   top: 0;
 }
 /* Navigation style */
+
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -32,14 +33,36 @@ nav {
   column-gap: 1.5rem;
   font-size: 3.5rem;
   opacity: 75%;
-  
+  /* erase under if problemes from Mathieu*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 .nav__item {
   width: 15rem;
   height: 5rem;
   text-align: center;
+  /* news from mathieu */
+   background-color: #064635; 
+   opacity: 100%;
+  border-radius: 25px;
+  /* outline: 2px #064635; */
+
 }
+
+
+
+.nav__item__search {
+  width: 10rem;
+  height: 5rem;
+  text-align: center;
+}
+/* news from mathieu */
+#search{
+  width: 160px;
+  height: 40px;
+} 
 
 .nav__item input[type="text"] {
   /*float: right;*/
@@ -47,8 +70,10 @@ nav {
   border: none;
   margin-top: 8px;
   margin-right: 16px;
-  font-size: 20px;
+  font-size: 20px;  
 }
+
+
 main {
   display: flex;
   flex-direction: column;
