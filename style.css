@@ -27,13 +27,12 @@ nav {
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(185, 185, 185, 0.25);
-}
-.navigation {
-  display: flex;
+  z-index: 1;
   align-items: center;
   column-gap: 1.5rem;
   font-size: 3.5rem;
   opacity: 75%;
+  
 }
 
 .nav__item {
@@ -42,7 +41,7 @@ nav {
   text-align: center;
 }
 
-.navigation input[type="text"] {
+.nav__item input[type="text"] {
   /*float: right;*/
   padding: 3px;
   border: none;
@@ -50,16 +49,28 @@ nav {
   margin-right: 16px;
   font-size: 20px;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  
+}
 
+.indexHero {
+display: flex;
+flex-direction: column;
+
+}
 .IndexCarousel {
   width: 100%;
   height: 500px;
   overflow: hidden;
   text-align: center;
-  position: relative;
+  /*position: absolute;  */
+  
 }
 
 .IndexCarouselItem {
+  z-index: 0;
   width: 100%;
   position: absolute;
   top: 0;
@@ -72,6 +83,7 @@ nav {
 .IndexCarouselItem img {
   width: auto;
   height: 500px;
+  z-index: 0;
 }
 @keyframes AllSlideShow {
   0% {
@@ -108,26 +120,146 @@ nav {
 .hero {
   text-align: center;
   font-size: 4rem;
+  /*position: absolute;*/             /*This wasn't here*/
+  
+}
+.ContainerOfContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container_chef1 {
   display: flex;
   max-height: 250px;
-  /*grid-template-columns: auto auto auto;*/
+  flex-basis: 450px 450px 450px;
+  flex-grow: 1 1 1;
   font-size: 2.5rem;
-  /*justify-content: center;
-  /*text-align: center;*/
+  justify-content: center;
+  text-align: center;
   /*align-content: center;*/
+  padding-left: 20%;
+  padding-right: 20%;
+  overflow: hidden;
+  gap: 10%;
+  /*position: relative;*/
 }
 .container_chef1 img {
   object-fit: contain;
   overflow: hidden;
+  max-width: 250px;
 }
 #french_cook {
   clip-path: circle();
 }
+.container_chef1 p {
+  align-self: center;
+}
+.LinkPicFrench {
+  position: relative;
+}
+.LinkPicFrench img {
+  position: absolute;
+}
+.LinkPicFrench a {
+  position: absolute;
+  z-index: 1;
+  font-size: 5rem;
+  font-weight: bold;
+  background-color: rgb(185, 185, 185, 0.65);
+  object-fit: cover;
+}
+.LinkPicFrench a:hover {
+  opacity: 0;
+  /*filter: alpha(opacity=0);*/
+}
+.container_chef2 {
+  display: flex;
+  flex-direction: row-reverse;
+  max-height: 250px;
+  flex-basis: 450px 450px 450px;
+  flex-grow: 1 1 1;
+  font-size: 2.5rem;
+  justify-content: center;
+  text-align: center;
+  /*align-content: center;*/
+  padding-left: 20%;
+  padding-right: 20%;
+  overflow: hidden;
+  gap: 10%;
+}
+.container_chef2 img {
+  object-fit: contain;
+  overflow: hidden;
+  max-width: 250px;
+}
+#german_cook {
+  clip-path: circle();
+}
+.container_chef2 p {
+  align-self: center;
+}
+.LinkPicGerman {
+  position: relative;
+}
+.LinkPicGerman img {
+  position: absolute;
+}
+.LinkPicGerman a {
+  position: absolute;
+  z-index: 1;
+  font-size: 4rem;
+  font-weight: bold;
+  background-color: rgb(185, 185, 185, 0.65);
+}
+.LinkPicGerman a:hover {
+  opacity: 0;
+  /*filter: alpha(opacity=0);*/
+}
+.container_chef3 {
+  display: flex;
+  max-height: 250px;
+  flex-basis: 450px 450px 450px;
+  flex-grow: 1 1 1;
+  font-size: 2.5rem;
+  justify-content: center;
+  text-align: center;
+  /*align-content: center;*/
+  padding-left: 20%;
+  padding-right: 20%;
+  overflow: hidden;
+  gap: 10%;
+}
+.container_chef3 img {
+  object-fit: contain;
+  overflow: hidden;
+  max-width: 250px;
+}
+#italian_cook {
+  clip-path: circle();
+}
+.container_chef3 p {
+  align-self: center;
+}
+.LinkPicItalian {
+  position: relative;
+}
+.LinkPicItalian img {
+  position: absolute;
+}
+.LinkPicItalian a {
+  position: absolute;
+  z-index: 1;
+  font-size: 6rem;
+  font-weight: bold;
+  background-color: rgb(185, 185, 185, 0.65);
+}
+.LinkPicItalian a:hover {
+  opacity: 0;
+}
+  /*filter: alpha(opacity=0);*/
 /* Footer style */
 footer {
-  position: relative;
+  /*position: relative;*/
   display: flex;
   justify-content: center;
   /* Marco: Just added a stupid color to better see it */
